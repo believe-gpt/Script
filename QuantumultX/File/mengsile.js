@@ -1,4 +1,4 @@
-const resBody = {
+var resBody = {
   "Result" : 0,
   "last_vist_worlds" : [
     "232"
