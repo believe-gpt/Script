@@ -3490,4 +3490,7 @@ const resBody = {
   ]
 }
 
+var date = new Date();
+resBody.CurTime = Math.floor(date.getTime()/1000)
+
 $done({ body: JSON.stringify(resBody) });
